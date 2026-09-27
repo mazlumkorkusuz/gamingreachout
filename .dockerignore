@@ -1,0 +1,7 @@
+# Installed/built inside the image; copying the host's macOS copies would overwrite
+# the Linux native binaries (Tailwind/lightningcss) that npm ci installs
+node_modules
+.next
+.git
+npm-debug.log*
+.env*.local
